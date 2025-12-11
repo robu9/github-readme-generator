@@ -12,7 +12,7 @@ async function generateReadme(repoData, readmeContent = '') {
   try {
     // Select the generative model and apply generation configuration
     const model = genAI.getGenerativeModel({
-      model: 'gemini-1.5-flash', // Using a stable and recommended model
+      model: 'gemini-2.5-flash', // Using a stable and recommended model
       generationConfig: {
         temperature: 0.2,
         maxOutputTokens: 1000,
